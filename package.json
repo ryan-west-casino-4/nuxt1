@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development nuxi dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/tailwindcss": "^5.0.2",
+    "@pinia/nuxt": "^0.1.8",
+    "@vueuse/core": "^8.1.2",
+    "core-js": "^3.9.1",
+    "miragejs": "^0.1.43",
+    "nuxt-edge": "latest",
+    "pinia": "^2.0.12"
+  }
+}
